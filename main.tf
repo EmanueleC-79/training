@@ -30,7 +30,7 @@ provider "aws" {
   region     = "${var.aws_region}"
 }
 
-resource "aws_instance" "web" {
+resourc "aws_instance" "web" {
   ami                    = "ami-a1447cc7"
   instance_type          = "t2.micro"
   subnet_id              = "subnet-3e826e59"
