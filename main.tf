@@ -35,7 +35,7 @@ resource "aws_instance" "web" {
   instance_type          = "t2.micro"
   subnet_id              = "subnet-3e826e59"
   vpc_security_group_ids = ["sg-882a83f1"]
-  count                  = "2"
+  count                  = "1"
 
   tags {
     Identity = "Hashicorp-training-catfish"
